@@ -40,8 +40,8 @@ volatile bool adcDone = false;
 
 //Pins JeeNode ports
 #define ONE_WIRE_BUS 6 //P3.DIO
-#define DHT22_PIN		7 //P4.DIO
-#define DHTTYPE DHT22	 // DHT 22	(AM2302), AM2321
+//#define DHT22_PIN		7 //P4.DIO
+//#define DHTTYPE DHT22	 // DHT 22	(AM2302), AM2321
 
 #ifdef ONE_WIRE_BUS
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
